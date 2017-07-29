@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?you=$1 [L,QSA,NC]
+RewriteRule ^([a-zA-Z0-9]+)/$ index.php?you=$1 [L,QSA,NC]
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
