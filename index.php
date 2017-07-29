@@ -27,7 +27,7 @@ if(!isset($_REQUEST['you'])) {
 	die("<h4>Untuk mendapatkan result silahkan buka <br/><br/>".BASE_URL . 'NamaKamu</h4>');
 }
 ?>
-<h1><?php echo $desk; ?></h1>
+<h1><?php echo $desc; ?></h1>
 <center><img src="<?php echo $pict; ?>"></center>
 </div>
 
